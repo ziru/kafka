@@ -1,19 +1,21 @@
 ### Create topics
 ```
-kafka-topics --zookeeper localhost:2181 --create --topic word-count-input --partitions 1 --replication-factor 1
+kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-input --partitions 1 --replication-factor 1
 
-kafka-topics --zookeeper localhost:2181 --create --topic word-count-output --partitions 1 --replication-factor 1
+kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-interim --config cleanup.policy=compact --partitions 1 --replication-factor 1
+
+kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-output --partitions 1 --replication-factor 1
 ```
 
 ### Start the producer
 ```
-kafkacat -P -b localhost:9092 -t word-count-input
+kafkacat -P -b localhost:9092 -t favorite-colors-input
 ```
 
 ### Start the consumer
 ```
 kafka-console-consumer --bootstrap-server localhost:9092 \
-  --topic word-count-output \
+  --topic favorite-colors-output \
   --from-beginning \
   --formatter kafka.tools.DefaultMessageFormatter \
   --property print.key=true \
@@ -29,5 +31,6 @@ mvn package
 
 ### Start the Kafka streams app
 ```
-java -jar target/word-count-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/wordcount-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
+~
