@@ -2,9 +2,9 @@
 ```
 kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-input --partitions 1 --replication-factor 1
 
-kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-interim --config cleanup.policy=compact --partitions 1 --replication-factor 1
+kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-interim --partitions 1 --replication-factor 1 --config cleanup.policy=compact
 
-kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-output --partitions 1 --replication-factor 1
+kafka-topics --zookeeper localhost:2181 --create --topic favorite-colors-output --partitions 1 --replication-factor 1 --config cleanup.policy=compact
 ```
 
 ### Start the producer
@@ -31,6 +31,6 @@ mvn package
 
 ### Start the Kafka streams app
 ```
-java -jar target/wordcount-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/favorite-colors-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 ~

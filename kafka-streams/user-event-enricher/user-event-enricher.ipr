@@ -60,7 +60,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module filepath="$PROJECT_DIR$/word-count.iml" />
+      <module filepath="$PROJECT_DIR$/user-event-enricher.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" />

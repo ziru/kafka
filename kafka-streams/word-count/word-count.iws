@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4426f698-d543-4843-9811-eb19b1facd14" name="Default Changelist" comment="" />
+    <list default="true" id="4426f698-d543-4843-9811-eb19b1facd14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../user-event-enricher/src/main/java/com/github/ziru/kafka/streams/UserDataProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-event-enricher/src/main/java/com/github/ziru/kafka/streams/UserEventEnricherApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favorite-colors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../favorite-colors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favorite-colors/favorite-colors.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../favorite-colors/favorite-colors.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word-count.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/word-count.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word-count.iws" beforeDir="false" afterPath="$PROJECT_DIR$/word-count.iws" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,17 +171,18 @@
     <EjbView showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/WordCountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
+            <state relative-caret-position="-114" />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
@@ -228,13 +236,12 @@
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +292,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -413,14 +422,11 @@
     <frame x="272" y="96" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286908" />
@@ -431,12 +437,15 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="CVS" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Aspects" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="VssConfiguration">
@@ -505,9 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/WordCountApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
+        <state relative-caret-position="-114" />
       </provider>
     </entry>
   </component>

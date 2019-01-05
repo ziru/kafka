@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36638c7b-8247-4e35-8cf5-46835673a68a" name="Default Changelist" comment="">
+    <list default="true" id="f9cad5ce-4b5a-4b33-9e17-5bd4ff785596" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../user-event-enricher/src/main/java/com/github/ziru/kafka/streams/UserDataProducer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../user-event-enricher/src/main/java/com/github/ziru/kafka/streams/UserEventEnricherApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite-colors.iws" beforeDir="false" afterPath="$PROJECT_DIR$/favorite-colors.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favorite-colors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../favorite-colors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favorite-colors/favorite-colors.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../favorite-colors/favorite-colors.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../word-count/word-count.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../word-count/word-count.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../word-count/word-count.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../word-count/word-count.iws" afterDir="false" />
     </list>
@@ -171,12 +171,12 @@
     <EjbView showMembers="false" autoscrollToSource="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/FavoriteColorsApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankBalanceExactlyOnceApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="308">
+              <caret line="77" lean-forward="true" selection-start-line="19" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,10 +185,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/internals/KStreamAggregate.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="343">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/KGroupedStream.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="90" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/Aggregator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankTransactionsProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-189">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +234,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>word</find>
+      <find>transactions</find>
+      <find>VR</find>
+      <find>ObjectNode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,8 +250,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/FavoriteColorsApp.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankTransactionsProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankBalanceExactlyOnceApp.java" />
       </list>
     </option>
   </component>
@@ -275,30 +307,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="favorite-colors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="favorite-colors" type="462c0819:PsiDirectoryNode" />
+              <item name="bank-balance-exactly-once" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-balance-exactly-once" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="favorite-colors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="favorite-colors" type="462c0819:PsiDirectoryNode" />
+              <item name="bank-balance-exactly-once" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-balance-exactly-once" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="favorite-colors" type="b2602c69:ProjectViewProjectNode" />
-              <item name="favorite-colors" type="462c0819:PsiDirectoryNode" />
+              <item name="bank-balance-exactly-once" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-balance-exactly-once" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-balance-exactly-once" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-balance-exactly-once" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bank-balance-exactly-once" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bank-balance-exactly-once" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewSettings">
@@ -329,16 +376,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BankTransactionsProducer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteColorsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.ziru.kafka.streams.FavoriteColorsApp" />
-      <module name="favorite-colors" />
+    <configuration name="BankBalanceExactlyOnceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.ziru.kafka.streams.BankBalanceExactlyOnceApp" />
+      <module name="bank-balance-exactly-once" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ziru.kafka.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTransactionsProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.ziru.kafka.streams.BankTransactionsProducer" />
+      <module name="bank-balance-exactly-once" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -368,7 +429,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FavoriteColorsApp" />
+        <item itemvalue="Application.BankTransactionsProducer" />
+        <item itemvalue="Application.BankBalanceExactlyOnceApp" />
       </list>
     </recent_temporary>
   </component>
@@ -400,11 +462,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36638c7b-8247-4e35-8cf5-46835673a68a" name="Default Changelist" comment="" />
-      <created>1545458463411</created>
+      <changelist id="f9cad5ce-4b5a-4b33-9e17-5bd4ff785596" name="Default Changelist" comment="" />
+      <created>1546671068237</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1545458463411</updated>
+      <updated>1546671068237</updated>
     </task>
     <servers />
   </component>
@@ -421,33 +483,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.14164004" />
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="CVS" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3299435" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Aspects" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="VssConfiguration">
@@ -507,38 +569,51 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/KeyValue.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/Aggregator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/KGroupedTable.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/KGroupedStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="21" column="90" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/FavoriteColorsApp.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="349">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.1.0/kafka-streams-2.1.0.jar!/org/apache/kafka/streams/kstream/internals/KStreamAggregate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankTransactionsProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ziru/kafka/streams/BankBalanceExactlyOnceApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="77" lean-forward="true" selection-start-line="19" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
